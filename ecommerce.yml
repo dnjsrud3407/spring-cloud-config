@@ -1,3 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: '{cipher}b36f55419cccc8cdebdd2516955615c61e6277f91998a1bf86c5737fcac39ba9'
+
 token:
   expiration_time: 86400000
   secret: user_token_default
