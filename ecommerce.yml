@@ -1,11 +1,11 @@
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
-    username: '{cipher}b36f55419cccc8cdebdd2516955615c61e6277f91998a1bf86c5737fcac39ba9'
+    username: '{cipher}AQAjYwew0MiX/DViMGWCPgMTk/vOxdJZqTqDzRFwdnQYjwIO5fAJbwrvt04zN+tGCQNfsJeUZX1+94WCNgcXSVJ+dgny6TUEZq2lOZq/2hk5H8EEk5/V7h3NyJmcZ208d4pdGJyI5ZVkw8CXueqwUTgvsrRE9ZelZ29vPFz53gRDmuuGY7+hmsgTylNIyvMlEf4iMwyLm11kK4l1K7KRZaf6B+/YSV7FKr0XUtGP4T32oAYSMXz1fcHgPxRcXTsIX6BfJuaLe2JHxkB8Uvf2Sq0taj/xq3TUITEZd2txJw36/BC24kWRp8yQ0II11x0+G7gQfcFSSJbcjFMMHbsARpKx/CR/LWZ3PT1g4kDYUq0yTHNGlKDYWb56D9c0OP02o+4='
 
 token:
   expiration_time: 86400000
-  secret: user_token_default
+  secret: '{cipher}AQAkE7kIEf+iE0GLGZsC1NjSlV7Tu81iIr9S37S/gUqLawyBKi2J3hGlm32QzbFih2uabEo6XOVp8nk9RJrbr10V7mIsCG0WhtagIb5UJemLstyp8bcS6w3ohucxa6LpiBedoiBXceQhZLjvXIF6qgydPLnTjf/aAmZA4+lb8U5ZT1HEfbJlz/eR2JZ6v2FVxaAp6kpXPb9m6rS8u1p9z1P0MZ2ZTnrhAcDbdOc5v1ef9uoaCA/P02OXMHCCeUujLO7QTcF8csWKrefO4ieSfzNLARB6O1SxV7QXAgddnlf5qa5NzPXV+l/Z9fJbzCkH4zcpHmA8xS7GV1GP4kAtUcFisqqX3QnmRytLcwZ5w0D38ATdtE5/0+7RtTIdxfjU9YfAaKY+9WQSMgAyEXeRrkJo'
 
 gateway:
   ip: 127.0.0.1
